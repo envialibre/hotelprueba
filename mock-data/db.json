@@ -1,0 +1,83 @@
+{
+    "hotels": [
+      {
+        "id": 1,
+        "name": "Hotel A",
+        "address": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345",
+        "phone": "555-555-1234",
+        "rooms": [
+          {
+            "id": 1,
+            "name": "Room 101",
+            "type": "Single",
+            "price": 100
+          },
+          {
+            "id": 2,
+            "name": "Room 102",
+            "type": "Single",
+            "price": 100
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Hotel B",
+        "address": "456 Main St",
+        "city": "Othertown",
+        "state": "CA",
+        "zip": "67890",
+        "phone": "555-555-5678",
+        "rooms": [
+          {
+            "id": 1,
+            "name": "Room 201",
+            "type": "Double",
+            "price": 150
+          },
+          {
+            "id": 2,
+            "name": "Room 202",
+            "type": "Double",
+            "price": 150
+          }
+        ]
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "555-555-1212"
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "555-555-2323"
+      }
+    ],
+    "appointments": [
+      {
+        "id": 1,
+        "customer_id": 1,
+        "hotel_id": 1,
+        "room_id": 1,
+        "start_time": "2023-05-10T10:00:00.000Z",
+        "end_time": "2023-05-12T12:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "customer_id": 2,
+        "hotel_id": 2,
+        "room_id": 2,
+        "start_time": "2023-05-15T14:00:00.000Z",
+        "end_time": "2023-05-17T12:00:00.000Z"
+      }
+    ]
+  }
+  

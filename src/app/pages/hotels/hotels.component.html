@@ -1,0 +1,17 @@
+<div>
+    <div>
+        <table>
+            <tbody>
+                <tr *ngFor="let hotel of hotels">
+                    <td>{{ hotel.id }}</td>
+                    <td>{{ hotel.name }}</td>
+                    <td>{{ hotel.city }}</td>
+                    <td *ngFor="let room of hotel.rooms" ><div>{{ room.name }} {{ room.bookings }} {{ room.description }} {{ room.price }}</div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+</div>
